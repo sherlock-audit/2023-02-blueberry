@@ -37,7 +37,7 @@ Includes:
     - All contracts in `/contracts`
 ```
 
-# About {Blueberry}
+# About Blueberry
 Blueberry is a multi step yield aggregator with an initial focus on Uni v3 automated management strategies. Blueberry interacts with it’s own money market (Compound fork), where we are able to allow for borrowing in a more capital efficient manner than others on-chain, as loans are now able to be evaluated for their specific deployment. In order to allow greater capital efficiency for borrowers (up to 600% LTV in certain cases), blueberry sets risk parameters such as LTV and min/max Position Size based on the specific deployment.
 
 The deployment is called a "spell." A spell can be anything that can be priced and has adequate liquidity, from Uniswap v3 management vaults to leverage longing Ethereum.

@@ -17,9 +17,7 @@
 ```
 DEPLOYMENT: mainnet
 LANGUAGE: solidity 0.8.16
-ERC20: [any]
-ERC721: [any]
-ERC777: [any]
+ERC20: [whitelisted - current list of supported assets: USDC, DAI, ALCX, BAL, CRV, ICHI, SUSHI, WBTC, WETH]
 ADMIN: [trusted]
 ```
 
@@ -58,8 +56,8 @@ This separation allows more flexible strategies for users. For example, a user m
 Hardhat version 2.12.4 Block height 16283930 Eth mainnet fork
 
 1. Clone the repo
-2. `npm install`
+2. `yarn install`
 3. Create .env file with env var `DEPLOY_ACCOUNT_KEY=` , `ALCHEMY_API_KEY=` , `ETHERSCAN_API_KEY=` (use http://alchemy.com)
-4. `npx hardhat compile`
-5. `npx hardhat test`
-6. `npx hardhat coverage`
+4. `yarn hardhat compile`
+5. `yarn hardhat test`
+6. `yarn hardhat coverage`
